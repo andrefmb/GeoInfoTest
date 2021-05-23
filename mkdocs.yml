@@ -25,7 +25,6 @@ edit_url: 'https://github.com/andrefmb/GeoInfoTest/edit/master/docs-src/'
 nav:
 - Home: index.md
 - 'Aulas':
-    - 'Lab1.md'
     - 'teste.ipynb'
 # - Sobre-Ferramental.md
 # - 'Mutirão':
