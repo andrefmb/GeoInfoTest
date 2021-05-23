@@ -23,7 +23,7 @@ site_url: https://github.com/andrefmb/GeoInfoTest
 nav:
 - Home: index.md
 - 'Aulas':
-    - 'teste.ipynb'
+    - 'material/10_introducao.ipynb'
 # - Sobre-Ferramental.md
 # - 'Mutirão':
 #     - 'about-mutirao.md'
