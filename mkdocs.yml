@@ -11,16 +11,14 @@ theme:
     code: Roboto Mono
     # custom_dir: 'custom_theme'
 
-docs_dir: docs-src
+docs_dir: material
 site_dir: docs
 
-copyright: 'Copyright &copy; 2021 / Marcelo Hashimoto, Igor Montagner, Rafael Corsi, Eduardo Marossi'
 
-site_url: https://insper.github.io/andrefmb/GeoInfoTest
-
-repo_name: 'Insper/InfoGeo'
+repo_name: 'GeoInfoTest'
 repo_url: 'https://github.com/andrefmb/GeoInfoTest'
-edit_url: 'https://github.com/andrefmb/GeoInfoTest/edit/master/docs-src/'
+site_url: https://github.com/andrefmb/GeoInfoTest
+
 
 nav:
 - Home: index.md
@@ -43,8 +41,9 @@ nav:
 
 # Extensions
 extra_javascript:
-  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
-  - 'translate_admonitions.js'
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML
+    - https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.0.0/js-yaml.min.js
+    - js/markdown-enhancer.js
 
 extra_css:
   - css/printing.css
@@ -81,4 +80,4 @@ markdown_extensions:
   - pymdownx.tilde
 plugins:
     - search
-    - mkdocs-jupyter
+    - mknotebooks
